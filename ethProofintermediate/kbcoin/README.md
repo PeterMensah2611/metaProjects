@@ -1,4 +1,4 @@
-# Kcoin Solidity Token Contract
+# Kbcoin Solidity Token Contract
 
 This is an erc20 Solidity smart contract for managing a token called Kcoin (KC). 
 
