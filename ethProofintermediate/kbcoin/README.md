@@ -1,10 +1,10 @@
 # Kbcoin Solidity Token Contract
 
-This is an erc20 Solidity smart contract for managing a token called Kcoin (KC). 
+This is an erc20 Solidity smart contract for managing a token called Kbcoin (KC). 
 
 ## Features
 
-- Create and manage a token with a name (Kcoin), abbreviation (KC), and a total supply.
+- Create and manage a token with a name (Kbcoin), abbreviation (KC), and a total supply.
 - Mint new tokens and distribute them to specific addresses.
 - only owner can mint
 - Burn existing tokens from specific addresses, with balance checks to prevent excessive burning.
