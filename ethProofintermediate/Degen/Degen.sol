@@ -103,6 +103,7 @@ mapping (address => bool) public ownsHammer;
 function buyAxeOfThor() public {
     require(balances[msg.sender] >= 250, "only the greatest of men can set their eyes on the axe of Thor");
     require(ownsAxe[msg.sender] == false, "how dare you mortal, to wield two axes of Thor");
+    totalSupply -= balances[msg.sender];
     balances[msg.sender] = 0;
     ownsAxe[msg.sender] == true;
 }
@@ -111,6 +112,7 @@ function buyHammerOfThor() public {
     require(balances[msg.sender] >= 85, "the weight of the hammer will crush your puny budget");
     require(ownsHammer[msg.sender] == false, "nice try mortal, you dare not handle two hammers");
     balances[msg.sender] -= 85;
+    totalSupply -= 85;
     ownsHammer[msg.sender] == true;
 }
     
