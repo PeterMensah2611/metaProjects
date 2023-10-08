@@ -13,7 +13,11 @@ buy thors hammer in the store at 85 DGN
 buy thors axe in the store for a minimum price of 250 DGN, However if the user has more tokens all of them will expended in purchasing the axe
 
 ## Access
-Degen Tokens can be found on the avalanche fuji testnet at this address
+ The offical Degen Token contract address is
+
+ 0x9977A8A59Bf3cBbdAB119E46Bc07D962894F4DB1
+
+ on the fuji testnet
 
 
 
