@@ -15,7 +15,7 @@ buy thors axe in the store for a minimum price of 250 DGN, However if the user h
 ## Access
  The offical Degen Token contract address is
 
- 0x9977A8A59Bf3cBbdAB119E46Bc07D962894F4DB1
+ 0x2D6efFDac02B13cDe011c6c4222ac98AC4478D54
 
  on the fuji testnet
 
