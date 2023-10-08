@@ -105,7 +105,7 @@ function buyAxeOfThor() public {
     require(ownsAxe[msg.sender] == false, "how dare you mortal, to wield two axes of Thor");
     totalSupply -= balances[msg.sender];
     balances[msg.sender] = 0;
-    ownsAxe[msg.sender] == true;
+    ownsAxe[msg.sender] = true;
 }
 
 function buyHammerOfThor() public {
@@ -113,7 +113,7 @@ function buyHammerOfThor() public {
     require(ownsHammer[msg.sender] == false, "nice try mortal, you dare not handle two hammers");
     balances[msg.sender] -= 85;
     totalSupply -= 85;
-    ownsHammer[msg.sender] == true;
+    ownsHammer[msg.sender] = true;
 }
     
 }
