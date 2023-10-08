@@ -19,7 +19,7 @@ buy thors axe in the store for a minimum price of 250 DGN, However if the user h
 
  on the fuji testnet
 
-
+ the contract has been verified on snowtrace
 
 ## Author
 Peter Mensah
